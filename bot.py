@@ -21,7 +21,6 @@ def clone(update, context):
         context.bot.send_message(chat_id=update.effective_chat.id, text="Bot cloned successfully.")
     else:
         context.bot.send_message(chat_id=update.effective_chat.id, text="Please provide a bot token to clone.")
-
 # Function to handle errors
 def error(update, context):
     print(f"Update {update} caused error {context.error}")
