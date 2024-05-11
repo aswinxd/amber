@@ -29,7 +29,7 @@ def error(update, context):
 # Function to start the bot
 def main():
     # Replace 'YOUR_TOKEN' with your bot's token
-    TOKEN = 'YOUR_TOKEN'
+    TOKEN = '7111525295:AAHNh9AQJ4Wejldqm_qb-3P37c4HGGkAAus'
     updater = Updater(token=TOKEN, use_context=True)
     dispatcher = updater.dispatcher
 
